@@ -1,0 +1,114 @@
+insert into immigrants values(1007 , 'Scerl' , 'Scheffler' , 'f' , 'scerl@gmail.com' , '1970-03-12' , 5007 , 52 , '7074561230');
+insert into immigrants values(1006 , 'Rory' , 'Mcllroy' , 'm' , 'rorymcllroy@gmail.com' , '1980-03-12' , 5006 , 42 , '9874561230');
+insert into immigrants values(1009 , 'Copper' , 'Smith' , 'f' , 'coopersmith@gmail.com' , '1981-09-12' , 5009 , 39 , '1075651230');
+insert into immigrants values(1008 , 'Petter' , 'cantlay' , 'm' , 'petter@gmail.com' , '1978-01-02' , 5008 , 44 , '9874881230');
+insert into immigrants values(1010 , 'Jharvin' , 'Rahm' , 'm' , 'jharvin@gmail.com' , '1983-07-23' , 5010 , 41 , '3245687155');
+insert into immigrants values(1011 , 'John' , 'Carry' , 'f' , 'carry@gmail.com' , '1963-03-12' , 5011 , 55 , '7074561230');
+insert into immigrants values(1012 , 'Willson' , 'Gates' , 'm' , 'gates@gmail.com' , '1961-03-12' , 5012 , 45 , '9874531230');
+insert into immigrants values(1013 , 'Mark' , 'Carl' , 'f' , 'carl@gmail.com' , '1965-09-04' , 5013 , 39 , '1075651160');
+insert into immigrants values(1014 , 'Bill' , 'Chang' , 'm' , 'bill@gmail.com' , '1990-01-02' , 5014 , 44 , '9874867230');
+insert into immigrants values(1015 , 'Joe' , 'Biden' , 'm' , 'biden@gmail.com' , '1978-07-07' , 5015 , 48 , '3248767155');
+
+insert into residency  values(1001,  5001, 'CHINA' , 'Beejing' ,  'Madhya Pradesh' ,'rented' ,  'Bhopal','E-3 TT Nagar ');
+insert into residency  values(1002,  5002, 'RUSSIA', 'Ustratia'   ,    'Uttar Pradesh',  'owned' , 'Lucknow'  , 'A-10 Emam Bada ');
+insert into residency  values(1003,  5003, 'USA' ,   'Losangles'   ,  'West Bengal' ,     'owned'   , 'Kolkata' , 'B -6 Nehru Nagar');
+insert into residency  values(1004,  5004, 'UK',     'Amsterdam'   ,  'Rajasthan'  ,     'rented'   , 'Jaipur'  ,  'C-5 DD Nagar');
+insert into residency  values(1005,  5005, 'UKRAINE','Verinia'   ,  'Gujrat' ,         'owned' ,    'Ahemdabad' , 'C-11 SBI Colony' );
+insert into residency  values(1006,  5006, 'INDIA' , 'Hongkong' ,  'Uttrakhand' ,    'rented' ,  'Mathura','Heera Road');
+insert into residency  values(1007,  5007, 'CANADA', 'Kolkata'   ,    'Kerala',       'owned' ,   'Mumbai'  , 'Gandhi Nagar');
+insert into residency  values(1008,  5008, 'JAPAN' ,   'Manhaten'   ,  'Rajasthan' ,     'owned'   , 'Manglore' , 'B -6 Nehru Nagar');
+insert into residency  values(1009,  5009, 'SWEDEN',     'Dubai'   ,  'Maharahtra'  ,     'rented'   , 'Patna'  ,  'C-5 DD Colony');
+insert into residency  values(1010,  5010, 'AUSTRALIA','Singapore'   ,  'Goa' ,         'owned' ,    'Panji' , 'Platinum Towers' );
+
+
+insert into criminal_status  values(2001,'robbery', 1991, 1);
+insert into criminal_status  values(2002,'mob linching', 1994, 3);
+insert into criminal_status  values(2003,'Delivery of drug', 1996, 1);
+insert into criminal_status  values(2004,'theft', 2000, 1);
+insert into criminal_status  values(2005,'Possion of Pistol', 1998, 2);
+insert into criminal_status  values(2006,'drug paddling', 1992, 1);
+insert into criminal_status  values(2007,'smuggling', 1995, 3);
+insert into criminal_status  values(2008,'drink and drive', 1889, 1);
+insert into criminal_status  values(2009,'late night dj', 1990, 1);
+insert into criminal_status  values(2010,'chain snatching', 1998, 2);
+
+insert into job  values(1001, 'google',   'CEO',  'CHINA', 4, 90000 ,  'TCS', 'BOD',  'Private', 'Bhopal');
+insert into job  values(1002, 'facebook', 'MANAGER','RUSSIA', 5, 70000, 'RELIANCE', 'CEO','Private', 'Lucknow');
+insert into job  values(1003, 'amazon',   'PEON',  'USA', 6, 20000, 'SAMSUNG','DRIVER','Private', 'Kolkata');
+insert into job  values(1004, 'apple',    'RECEPTIONIST','UK', 5, 30000, 'TESLA','SECRATARY','Private', 'Jaipur');
+insert into job  values(1005, 'netflix', 'SECRETARY','UKRAINE', 7, 60000, 'FORD','MANAGER','Private', 'Ahemdabad');
+insert into job  values(1006, 'cred',   'MANGER',  'INDIA', 4, 90000 ,  'DHCL', 'BOD',  'government', 'Mathura');
+insert into job  values(1007, 'freecharge', 'MANAGER','CANADA', 5, 70000, 'VIVO', 'CEO','public', 'Mumbai');
+insert into job  values(1008, 'smileux',   'HEAD',  'JAPAN', 6, 20000, 'OPPO,'DRIVER','Private', 'Manglore');
+insert into job  values(1009, 'kde connect',    'ASSISTANT','SWEDEN', 5, 30000, 'MICROMAX','SECRATARY','Private', 'Patna');
+insert into job  values(1010,  'code nation', 'SECRETARY','AUSTRALIA', 7, 60000, 'HONDA','MANAGER','Private', 'Panji');
+
+
+insert into info  values(1001, 2001,'Job','Employed', 2010 );
+insert into info  values(1002, 2002,'War','Unemployed', 2011 );
+insert into info  values(1003, 2003,'Study','Employed', 2012 );
+insert into info  values(1004, 2004,'For exploration','Employed', 2013 );
+insert into info  values(1005, 2005,'For new lifestyle','Unemployed', 2014 );
+insert into info  values(1006, 2006,'education','Employed', 2013 );
+insert into info  values(1007, 2007,'maraige','Unemployed', 2011 );
+insert into info  values(1008, 2008,'proffesion','Employed', 2014 );
+insert into info  values(1009, 2009,'property','Employed', 2013 );
+insert into info  values(1010, 2010,'marital afaairs','Unemployed', 2012 );
+
+
+insert into immigrants values(1007 , 'Scerl' , 'Scheffler' , 'f' , 'scerl@gmail.com' , '1970-03-12' , 5007 , 52 , '7074561230');
+insert into immigrants values(1006 , 'Rory' , 'Mcllroy' , 'm' , 'rorymcllroy@gmail.com' , '1980-03-12' , 5006 , 42 , '9874561230');
+insert into immigrants values(1009 , 'Copper' , 'Smith' , 'f' , 'coopersmith@gmail.com' , '1981-09-12' , 5009 , 39 , '1075651230');
+insert into immigrants values(1008 , 'Petter' , 'cantlay' , 'm' , 'petter@gmail.com' , '1978-01-02' , 5008 , 44 , '9874881230');
+insert into immigrants values(1010 , 'Jharvin' , 'Rahm' , 'm' , 'jharvin@gmail.com' , '1983-07-23' , 5010 , 41 , '3245687155');
+insert into immigrants values(1011 , 'John' , 'Carry' , 'f' , 'carry@gmail.com' , '1963-03-12' , 5011 , 55 , '7074561230');
+insert into immigrants values(1012 , 'Willson' , 'Gates' , 'm' , 'gates@gmail.com' , '1961-03-12' , 5012 , 45 , '9874531230');
+insert into immigrants values(1013 , 'Mark' , 'Carl' , 'f' , 'carl@gmail.com' , '1965-09-04' , 5013 , 39 , '1075651160');
+insert into immigrants values(1014 , 'Bill' , 'Chang' , 'm' , 'bill@gmail.com' , '1990-01-02' , 5014 , 44 , '9874867230');
+insert into immigrants values(1015 , 'Joe' , 'Biden' , 'm' , 'biden@gmail.com' , '1978-07-07' , 5015 , 48 , '3248767155');
+
+insert into residency  values(1001,  5001, 'CHINA' , 'Beejing' ,  'Madhya Pradesh' ,'rented' ,  'Bhopal','E-3 TT Nagar ');
+insert into residency  values(1002,  5002, 'RUSSIA', 'Ustratia'   ,    'Uttar Pradesh',  'owned' , 'Lucknow'  , 'A-10 Emam Bada ');
+insert into residency  values(1003,  5003, 'USA' ,   'Losangles'   ,  'West Bengal' ,     'owned'   , 'Kolkata' , 'B -6 Nehru Nagar');
+insert into residency  values(1004,  5004, 'UK',     'Amsterdam'   ,  'Rajasthan'  ,     'rented'   , 'Jaipur'  ,  'C-5 DD Nagar');
+insert into residency  values(1005,  5005, 'UKRAINE','Verinia'   ,  'Gujrat' ,         'owned' ,    'Ahemdabad' , 'C-11 SBI Colony' );
+insert into residency  values(1006,  5006, 'INDIA' , 'Hongkong' ,  'Uttrakhand' ,    'rented' ,  'Mathura','Heera Road');
+insert into residency  values(1007,  5007, 'CANADA', 'Kolkata'   ,    'Kerala',       'owned' ,   'Mumbai'  , 'Gandhi Nagar');
+insert into residency  values(1008,  5008, 'JAPAN' ,   'Manhaten'   ,  'Rajasthan' ,     'owned'   , 'Manglore' , 'B -6 Nehru Nagar');
+insert into residency  values(1009,  5009, 'SWEDEN',     'Dubai'   ,  'Maharahtra'  ,     'rented'   , 'Patna'  ,  'C-5 DD Colony');
+insert into residency  values(1010,  5010, 'AUSTRALIA','Singapore'   ,  'Goa' ,         'owned' ,    'Panji' , 'Platinum Towers' );
+
+
+insert into criminal_status  values(2001,'robbery', 1991, 1);
+insert into criminal_status  values(2002,'mob linching', 1994, 3);
+insert into criminal_status  values(2003,'Delivery of drug', 1996, 1);
+insert into criminal_status  values(2004,'theft', 2000, 1);
+insert into criminal_status  values(2005,'Possion of Pistol', 1998, 2);
+insert into criminal_status  values(2006,'drug paddling', 1992, 1);
+insert into criminal_status  values(2007,'smuggling', 1995, 3);
+insert into criminal_status  values(2008,'drink and drive', 1889, 1);
+insert into criminal_status  values(2009,'late night dj', 1990, 1);
+insert into criminal_status  values(2010,'chain snatching', 1998, 2);
+
+insert into job  values(1001, 'google',   'CEO',  'CHINA', 4, 90000 ,  'TCS', 'BOD',  'Private', 'Bhopal');
+insert into job  values(1002, 'facebook', 'MANAGER','RUSSIA', 5, 70000, 'RELIANCE', 'CEO','Private', 'Lucknow');
+insert into job  values(1003, 'amazon',   'PEON',  'USA', 6, 20000, 'SAMSUNG','DRIVER','Private', 'Kolkata');
+insert into job  values(1004, 'apple',    'RECEPTIONIST','UK', 5, 30000, 'TESLA','SECRATARY','Private', 'Jaipur');
+insert into job  values(1005, 'netflix', 'SECRETARY','UKRAINE', 7, 60000, 'FORD','MANAGER','Private', 'Ahemdabad');
+insert into job  values(1006, 'cred',   'MANGER',  'INDIA', 4, 90000 ,  'DHCL', 'BOD',  'government', 'Mathura');
+insert into job  values(1007, 'freecharge', 'MANAGER','CANADA', 5, 70000, 'VIVO', 'CEO','public', 'Mumbai');
+insert into job  values(1008, 'smileux',   'HEAD',  'JAPAN', 6, 20000, 'OPPO,'DRIVER','Private', 'Manglore');
+insert into job  values(1009, 'kde connect',    'ASSISTANT','SWEDEN', 5, 30000, 'MICROMAX','SECRATARY','Private', 'Patna');
+insert into job  values(1010,  'code nation', 'SECRETARY','AUSTRALIA', 7, 60000, 'HONDA','MANAGER','Private', 'Panji');
+
+
+insert into info  values(1001, 2001,'Job','Employed', 2010 );
+insert into info  values(1002, 2002,'War','Unemployed', 2011 );
+insert into info  values(1003, 2003,'Study','Employed', 2012 );
+insert into info  values(1004, 2004,'For exploration','Employed', 2013 );
+insert into info  values(1005, 2005,'For new lifestyle','Unemployed', 2014 );
+insert into info  values(1006, 2006,'education','Employed', 2013 );
+insert into info  values(1007, 2007,'maraige','Unemployed', 2011 );
+insert into info  values(1008, 2008,'proffesion','Employed', 2014 );
+insert into info  values(1009, 2009,'property','Employed', 2013 );
+insert into info  values(1010, 2010,'marital afaairs','Unemployed', 2012 );

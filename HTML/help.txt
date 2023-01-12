@@ -1,0 +1,22 @@
+1.To learn something new , try w3school.com
+2.For any questions 
+    -> https://rubberduckdebugging.com/
+    -> stackoverflow
+3. Some tags :
+    -> h1-h6 for headings 
+    -> ul for unordered list and ol for oddered list
+    -> p for paragraph 
+    -> strong for bold : em for italic 
+    -> Self closing tags
+        hr for horizontal line 
+        br for break line 
+        img for image <img src ="link of file" alt ="alternate text if image not found" height ="" width="">
+
+    -> We use <a></a> to link to html pages 
+    {
+        <a href = "address ">
+            text
+        </a>
+    }
+    ->
+    ->

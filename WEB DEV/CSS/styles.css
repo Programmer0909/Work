@@ -1,0 +1,18 @@
+body {
+  background-color: #c4e6fc;
+}
+hr {
+  /* border-top: 1px dotted red; */
+  border-color: #e31289;
+  border-style: none;
+  border-top-style: dotted;
+  height: 10%;
+  width: 5%;
+  /* scroll-padding: 200px; */
+}
+h1{
+    color: #df13e6;
+}
+h3{
+    color: #f152f4;
+}

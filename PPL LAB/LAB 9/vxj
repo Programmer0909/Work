@@ -1,0 +1,24 @@
+create database immi_management;
+use immi_management;
+create table immigrants(immi_id int primary key, fname varchar(20), minit varchar(20), gender char, email varchar(20), dob date, family_id int, age int, mob_no varchar(20), country varchar(20));
+
+create table residency(immi_id int, family_id int, native_country varchar(20), property_status varchar(20), current_state varchar(20), native_city varchar(20), current_city varchar(20), primary key(immi_id, family_id));
+
+
+create table address(family_id int primary key, street varchar(50), city varchar(50), state varchar(50));
+
+
+create table info(immi_id int, C_id int, reason varchar(100), current_status varchar(20), year_of_immi int, primary key(immi_id, C_id));
+
+
+
+create table job(immi_id int primary key, native_company varchar(50),native_company_post varchar(50), native_country varchar(50), work_exp varchar(50), salary int, current_company varchar(50),current_post varchar(50), current_section varchar(50), current_company_city varchar(50));
+
+
+create table criminal_status( C_id int primary key, crime varchar(50), year_of_immi int, prison_time int);
+
+-- insert into address values (;
+
+drop database immi_management;
+
+

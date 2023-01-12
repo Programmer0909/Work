@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"c:\\Users\\LENOVO\\OneDrive\\Desktop\\c++\\hhj\\geeksforgeeks\\c.cpp","tests":[{"id":1667572776203,"input":"3\n2\n1 1\n2\n2 1\n3\n5 4 4\n","output":"Bob\nAlice\nAlice\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\LENOVO\\OneDrive\\Desktop\\c++\\hhj\\geeksforgeeks\\c.cpp","group":"local","local":true}

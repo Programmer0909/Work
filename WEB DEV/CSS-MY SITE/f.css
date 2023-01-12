@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+  }
+  
+  .top {
+    background-color: aqua;
+    margin: 0px;
+    height: 200px;
+    width: 200px;
+    /* border : solid black 10px; */
+    /* padding: 20px; */
+    position: relative;
+    
+    
+  }
+  
+  h1 {
+    margin: 0px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  .middle {
+    /* margin-left: 260px; */
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+    /* border : solid black 20px; */
+    position: absolute;
+    left: 200px;
+    top: 0px;
+  }
+  
+  .bottom {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /* border : solid black 10px; */
+    margin-left: 400px;
+    position: absolute;
+    top: 0px;
+  
+  
+  
+  }
+  

@@ -1,0 +1,9 @@
+firstname=Pratham
+&lastname=Pali
+&email=prathampali2002%40gmail.com
+&phone_num=74898144491
+&address=hehe
+&DOB=2018-05-07
+&Gender=Male
+&Dogs=on
+&birds=on
