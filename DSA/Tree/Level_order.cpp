@@ -24,35 +24,50 @@ int height(Node *root)
     return (max(height(root->left), height(root->right)) + 1);
 }
 
-void ele_at_k(Node* root,int k){
-    if (root==NULL) return  ;
-    else if (k==0) cout << root->key << " " ;
-    else{
-        ele_at_k(root->left , k-1);
-        ele_at_k(root->right , k-1);}}
-
-void level_order_traversal(Node* root){
-    int h =height(root);
-    for (int i = 0; i < h; i++) ele_at_k(root , i);
-
+void ele_at_k(Node *root, int k)
+{
+    if (root == NULL)
+        return;
+    else if (k == 0)
+        cout << root->key << " ";
+    else
+    {
+        ele_at_k(root->left, k - 1);
+        ele_at_k(root->right, k - 1);
+    }
 }
+
+// void level_order_traversal(Node* root){
+//     int h =height(root);
+//     for (int i = 0; i < h; i++) ele_at_k(root , i);
+
+// }
 
 // IN O(N) TIME AND O(N) AUXILARY SPACE
 
 void level_order_traversal(Node *root)
 {
-    queue<Node *> q;
+    stack <Node *> s;
+    queue <Node *> q;
     q.push(root);
     while (q.empty() == false)
     {
         Node *curr = q.front();
+        // cout << q.front()->key << " ";
         q.pop();
-        cout << curr->key << " ";
-        if (curr->left != NULL)
-            q.push(curr->left);
+        s.push(curr);
         if (curr->right != NULL)
             q.push(curr->right);
+        if (curr->left != NULL)
+            q.push(curr->left);
     }
+
+    while (s.empty()==false)
+    {
+        cout << s.top()->key << " ";
+        s.pop();
+    }
+    
 }
 
 // IN O(N) TIME AND O(N) AUXILARY SPACE
@@ -74,10 +89,10 @@ void level_order_traversal_line_by_line(Node *root)
         }
 
         cout << curr->key << " ";
-        if (curr->left != NULL)
-            q.push(curr->left);
         if (curr->right != NULL)
             q.push(curr->right);
+        if (curr->left != NULL)
+            q.push(curr->left);
     }
 }
 
@@ -99,6 +114,6 @@ int main()
     no2->right = new Node(70);
     // ele_at_k(root,2);
     // level_order_traversal(root);
-    level_order_traversal_line_by_line(root);
+    level_order_traversal(root);
     return 0;
 }
