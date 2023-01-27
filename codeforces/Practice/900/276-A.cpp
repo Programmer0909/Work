@@ -5,14 +5,13 @@ using namespace std;
 int main(){
     int n,k;
     cin>>n>>k;
-    int res = 0;
+    int res = INT_MIN;
     for (int i = 0; i < n; i++)
     {
         int a , b;
         cin >> a >> b;
-        int k = (k-b<0)?(a-(b-k)):(a);
-        res=max(res,k);
-        // cout << res << endl;
+        int m = (k-b<0)?(a-(b-k)):(a);  
+        res=max(res,m);
     }
     cout << res << endl;
     return 0;
