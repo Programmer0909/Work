@@ -1,2 +1,6 @@
 1. To replace a substring in with something else use :
     regex(old string , string to be replaced, with what it is supposed to be replaced);
+
+2. To sort an array s.t. even number are at front and odd at back
+        sort(a.begin(), a.end(), [](int x, int y)
+             { return x % 2 < y % 2; });

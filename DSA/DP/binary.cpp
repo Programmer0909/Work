@@ -18,7 +18,8 @@ int sol(int n, int ld)
 int main()
 {
     // cout << sol(2 , 0) + sol(2 , 1) << endl;
-    int n;cin >> n;
+    int n;
+    cin >> n;
     int dp[n + 1][2];
     for (int i = 0; i <= n; i++)
         for (int j = 0; j < 2; j++)
@@ -28,9 +29,9 @@ int main()
     for (int i = 1; i < n; i++)
     {
         dp[i][0] = dp[i - 1][0] + dp[i - 1][1];
-        dp[i][1] = dp[i-1][0];
+        dp[i][1] = dp[i - 1][0];
     }
-    for (int i = 0; i <n; i++)
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < 2; j++)
             cout << dp[i][j] << " ";

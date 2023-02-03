@@ -43,20 +43,28 @@
 
 using namespace std;
 
-long long int dp[1005];
-long long int count(long long int S[], long long int m, long long int n)
+int dp[1005];
+int count(int S[], int m, int n)
 {
     dp[0] = 1;
+    // for (int i = 0; i < m; i++)
+    //     for (int j = S[i]; j <= n; j++)
+    //         dp[j] += dp[j - S[i]];
     for (int i = 0; i < m; i++)
-        for (int j = S[i]; j <= n; j++)
-            dp[j] += dp[j - S[i]];
-
+    {
+        for (size_t i = 0; i < count; i++)
+        {
+            /* code */
+        }
+        
+    }
+    
     return dp[n];
 }
 
 int main()
 {
-    long long int val[1005];
+    int val[1005];
     // freopen("test.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
     int N, M;
