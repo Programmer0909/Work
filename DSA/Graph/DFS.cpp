@@ -13,7 +13,6 @@ void dfs(int v, bool visited[], vector<int> arr[])
         if (visited[child] == false)
             dfs(child, visited, arr);
 }
-// AIM :
 int main()
 {
     int n, z;

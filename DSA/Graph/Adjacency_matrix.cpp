@@ -3,18 +3,13 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int n,z;
     cout << "Enter Size : ";
-    int z;
-    cin >> n;
-    cin >> z;
+    // int z;
+    cin >> n >> z;
+    // cin >> z;
     int arr[n + 1][n+1];
-    for (int i = 1; i < n+1; i++)
-    {
-        for (int j = 1; j < n+1; j++)
-            arr[i][j] = 0;
-        
-    }
+    for (int i = 1; i < n+1; i++) for (int j = 1; j < n+1; j++) arr[i][j] = 0;
     for (int i = 0; i < z; i++)
     {
         cout << "Enter index : ";
