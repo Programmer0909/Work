@@ -19,12 +19,12 @@ int ch()
         s.insert(arr[i]);
     }
     mini = *min_element(arr, arr + n);
-    maxi = *max_element(arr,arr+n);
+    maxi = *max_element(arr, arr + n);
     sort(arr, arr + n);
-    int j = n-1;
+    int j = n - 1;
     int t = maxi;
-    
-    for (int i = t; i>=mini; i--)
+
+    for (int i = t; i >= mini; i--)
     {
         if (s.find(i) == s.end())
         {
@@ -34,7 +34,8 @@ int ch()
                 x = (arr[j] - i);
             res += x, j--, s.insert(i);
         }
-        else j--;
+        else
+            j--;
     }
     cout << res << endl;
     return 0;
