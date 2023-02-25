@@ -1,5 +1,5 @@
-$("button").html("<em>HUI HUI</em>")
-$("a").attr("href" , "https://www.bing.com/#")
+// $("button").html("<em>HUI HUI</em>")
+// $("a").attr("href" , "https://www.bing.com/#")
 
 // event listner
 
@@ -8,9 +8,9 @@ $("a").attr("href" , "https://www.bing.com/#")
 // })
 
 // event listner on key press
-// $(document).keypress(function(_event){
+// $(document).keypress(function(event){
 //     // console.log(_event.key);
-//     $("h1").text(_event.key);
+//     $("h1").text(event.key);
 // })
 
 // another way to add event listner

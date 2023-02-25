@@ -1,30 +1,32 @@
-var buttonColours = ["red", "blue", "green", "yellow"];
-var gamePattern =[];
-var userClickedPattern = [];
+// var buttonColours = ["red", "blue", "green", "yellow"];
+// var gamePattern =[];
+// var userClickedPattern = [];
 
-function nextSequence() {
-    var randomNumber = Math.floor(Math.random() * 4);
-    var randomChosenColour = buttonColours[randomNumber];
-    gamePattern.push(randomChosenColour);
+// function nextSequence() {
+//     var randomNumber = Math.floor(Math.random() * 4);
+//     var randomChosenColour = buttonColours[randomNumber];
+//     gamePattern.push(randomChosenColour);
 
-    $("#" + randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+//     $("#" + randomChosenColour).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
     
-    playSound(randomChosenColour);
+//     playSound(randomChosenColour);
 
 
-}
+// }
 
-$(".btn").on("click",function (){
+// $(".btn").on("click",function (){
 
-    var userChosenColour = $(this).attr("id");
+//     var userChosenColour = $(this).attr("id");
 
-    userClickedPattern.push(userChosenColour);
+//     userClickedPattern.push(userChosenColour);
 
-    playSound(userChosenColour);
+//     playSound(userChosenColour);
     
-})
+// })
 
-function playSound(name) {
-    var audio = new Audio("sounds/" + name + ".mp3");
-    audio.play();
-}
+// function playSound(name) {
+//     var audio = new Audio("sounds/" + name + ".mp3");
+//     audio.play();
+// }
+
+// alert("h");
