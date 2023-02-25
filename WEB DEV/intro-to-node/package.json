@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "naruto-name-generator": "^2.0.7",
+    "pokemon": "^2.3.4",
+    "superheroes": "^3.0.0"
+  }
+}
